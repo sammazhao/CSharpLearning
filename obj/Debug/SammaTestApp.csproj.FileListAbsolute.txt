@@ -1,0 +1,7 @@
+C:\Users\15040\source\repos\ConsoleApp1\SammaTestApp\bin\Debug\SammaTestApp.exe.config
+C:\Users\15040\source\repos\ConsoleApp1\SammaTestApp\bin\Debug\SammaTestApp.exe
+C:\Users\15040\source\repos\ConsoleApp1\SammaTestApp\bin\Debug\SammaTestApp.pdb
+C:\Users\15040\source\repos\ConsoleApp1\SammaTestApp\obj\Debug\SammaTestApp.csprojAssemblyReference.cache
+C:\Users\15040\source\repos\ConsoleApp1\SammaTestApp\obj\Debug\SammaTestApp.csproj.CoreCompileInputs.cache
+C:\Users\15040\source\repos\ConsoleApp1\SammaTestApp\obj\Debug\SammaTestApp.exe
+C:\Users\15040\source\repos\ConsoleApp1\SammaTestApp\obj\Debug\SammaTestApp.pdb
