@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace StartNow
 {
-    class Cat
+    class CatOld
     {
         private string name;
         private int age;

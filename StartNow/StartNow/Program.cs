@@ -146,7 +146,10 @@ namespace StartNow
             //hanshuDemo.testFun3(myNum);
             //Console.ReadKey();
 
-            //2019/06/21 定义类练习
+            //2019/06/21 类练习
+            Dog aDog = new Dog();
+            aDog.Running();
+            Console.ReadKey();
 
 
 

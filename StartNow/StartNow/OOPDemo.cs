@@ -42,6 +42,12 @@ namespace StartNow
     }
 
     public abstract class MyBase { } // 抽象类，只能继承，不能实例化
+    public interface IMyBaseInterface { }
+    internal interface IMyBaseInterface2 { }
+    internal interface IMyInterface : IMyBaseInterface, IMyBaseInterface2 { }
+    internal sealed class MyComplexClass : MyBase, IMyBaseInterface { } // sealed类，不能继承
+
+    //构造函数
     internal class Cat
     {
         //默认构造函数
@@ -56,8 +62,23 @@ namespace StartNow
             Console.WriteLine($"Cat of type: {type}");
         }
     }
-    public interface IMyBaseInterface { }
-    internal interface IMyBaseInterface2 { }
-    internal interface IMyInterface : IMyBaseInterface, IMyBaseInterface2 { }
-    internal sealed class MyComplexClass : MyBase, IMyBaseInterface { } // sealed类，不能继承
+
+    //析构函数。 当进行垃圾回收时，执行析构函数中的代码，释放资源
+    class MyClassNew
+    {
+        ~MyClassNew()
+        {
+        }
+    }
+
+    // 实例化派生类时，先实例化基类。
+    //构造函数执行顺序。 发生构造函数调用错误通常是因为类继承结构中某个基类没有正确实例化，或没有正确的给基类构造函数提供信息。
+    public class MyBaseClass
+    {
+        public MyBaseClass()
+        { }
+
+        public MyBaseClass(int i) { }
+
+    }
 }

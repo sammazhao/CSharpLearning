@@ -64,6 +64,12 @@ namespace StartNow
         ordercomplete=102,
     }
 
+    public enum Sex
+    {
+        Male=0,
+        Female=1
+    }
+
     
 
 }
